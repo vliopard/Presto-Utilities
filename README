@@ -1,0 +1,34 @@
+DESCRIPTION: This tool is a sinlge application that includes Presto Backup, Presto Restore and Boot Logo Replacer, all-in-one.
+
+=========
+BACKUP
+=========
+This is just a simple tool for backing up your .apk files from /data/app and /data/app-private applications to your SDCard.
+
+=========
+RESTORE
+=========
+This is just a simple tool for restoring your .apk files from your custom applications dir on your SDCard.
+
+=========
+UNINSTALL
+=========
+This is just a simple tool for uninstalling your  applications from your device.
+
+========
+BOOTLOGO
+========
+FREE boot logo zip packages can be found at developer's site.
+
+This is just a simple tool for changing your boot logo screen.
+
+It does not include boot logo packages.
+
+bootanimation.zip package must be placed at SDCARD/bootanims/myAnimation/bootanimation.zip
+
+preview.png screenshot must be size 80x80 and placed at SDCARD/bootanims/myAnimation/preview.png
+
+Bootsound is not tested yet:
+
+Bootsound.mp3 must be placed at
+SDCARD/bootanims/myAnimation/Bootsound.mp3

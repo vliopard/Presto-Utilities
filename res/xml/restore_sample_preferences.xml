@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/direct_install_method">
+		<CheckBoxPreference android:key="restore_checkbox"
+			android:title="@string/enable_direct_install_method"
+			android:summary="@string/check_direct_install_method" />
+		<EditTextPreference android:key="backupdir"
+			android:title="@string/custom_backup_directory" />
+	</PreferenceCategory>
+		<PreferenceCategory android:title="@string/restore_sort_settings">
+		<ListPreference android:key="restore_listType"
+						android:title="@string/restore_sample_pref_sel_dialog_type" 
+						android:summary="@string/restore_sample_pref_click_pop_up_type"
+						android:entries="@array/restore_numbernamesType"
+						android:entryValues="@array/restore_numbersType"
+						android:dialogTitle="@string/restore_sample_pref_choose_number_type" />
+		<ListPreference android:key="restore_listOrder"
+						android:title="@string/restore_sample_pref_sel_dialog_order" 
+						android:summary="@string/restore_sample_pref_click_pop_up_order"
+						android:entries="@array/restore_numbernamesOrder"
+						android:entryValues="@array/restore_numbersOrder"
+						android:dialogTitle="@string/restore_sample_pref_choose_number_order" />						
+	</PreferenceCategory>
+</PreferenceScreen>

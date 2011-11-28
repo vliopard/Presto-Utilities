@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest
+	package="com.otdshco.presto"
+	android:versionCode="1992"
+	android:versionName="1.9.9.2"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+>
+	<uses-sdk
+		android:minSdkVersion="8" />
+	<uses-permission
+		android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission
+		android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission
+		android:name="android.permission.INSTALL_PACKAGES"
+	></uses-permission>
+	<application
+		android:icon="@drawable/icon"
+		android:label="@string/app_presto_name"
+	>
+		<activity
+			android:label="@string/app_presto_name"
+			android:name="Presto" />
+		<activity
+			android:name="com.otdshco.presto.Presto"
+		>
+			<intent-filter>
+				<action
+					android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="com.otdshco.backup.BackupSettings" />
+		<activity
+			android:name="com.otdshco.restore.RestoreSettings" />
+		<activity
+			android:label="@string/app_restore_name"
+			android:name="com.otdshco.restore.Restore" />
+		<activity
+			android:label="@string/app_backup_name"
+			android:name="com.otdshco.backup.Backup" />
+		<activity
+			android:label="@string/app_bootlogo_name"
+			android:name="com.otdshco.bootlogo.BootLogoChanger" />
+		<activity
+			android:label="@string/app_uninstall_name"
+			android:name="com.otdshco.uninstall.Uninstall" />
+	</application>
+</manifest>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+>
+	<TextView
+		android:text="@string/otdshco"
+		android:id="@+id/description_title"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+	></TextView>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_gravity="center"
+		android:text="@string/backup_title"
+		android:layout_height="wrap_content"
+		android:id="@+id/backup_main"
+	>
+	</Button>
+	<TextView
+		android:layout_width="match_parent"
+		android:text="@string/space"
+		android:id="@+id/space_line"
+		android:layout_height="wrap_content"
+	></TextView>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_gravity="center"
+		android:text="@string/restore_title"
+		android:layout_height="wrap_content"
+		android:id="@+id/restore_main"
+	>
+	</Button>
+	<TextView
+		android:layout_width="match_parent"
+		android:text="@string/space"
+		android:id="@+id/space_line"
+		android:layout_height="wrap_content"
+	></TextView>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_gravity="center"
+		android:text="@string/boot_logo_title"
+		android:layout_height="wrap_content"
+		android:id="@+id/boot_logo_main"
+	>
+	</Button>
+	<TextView
+		android:layout_width="match_parent"
+		android:text="@string/space"
+		android:id="@+id/space_line"
+		android:layout_height="wrap_content"
+	></TextView>
+		<Button
+		android:layout_width="match_parent"
+		android:layout_gravity="center"
+		android:text="@string/uninstall_title"
+		android:layout_height="wrap_content"
+		android:id="@+id/uninstall_main"
+		>
+		</Button>
+</LinearLayout>
